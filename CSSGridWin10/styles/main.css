@@ -1,11 +1,15 @@
 .start-panel {
-
+    display: grid;
+    grid-template-columns: 50px 170px 1fr;
 }
 .start-panel__icons {
-
+    display: grid;
+    grid-template-rows: 1fr;
 }
 .start-panel__grid {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 .apps--office {
 
